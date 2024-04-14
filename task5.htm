@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<title>registration form</title>
+</head>
+<body>
+<form>
+<table border="2" width="400" height="600" align="center">
+<caption>Registration form</caption>
+<tr>
+<td>
+ Enter Your First name:
+<input type="text" name="$fname">
+</td>
+</tr>
+<tr>
+<td>
+Enetr your Last name:
+<input type="text" name="lname">
+</td>
+</tr>
+<tr>
+<td>
+ Enter Your Email Address:
+<input type="text" name="email">
+</td>
+</tr>
+<tr>
+<td>
+ Enter Your Password:
+<input type="text" name="pswd" minlength="8" required>
+</td>
+</tr>
+<tr>
+<td>
+Confirm password:
+<input type="text" name="cnpswd">
+</td>
+</tr>
+<tr>
+<td>
+ Date of Birth:
+<input type="date" name="city">
+
+</td>
+</tr>
+<tr>
+<td>
+Gender:
+&nbsp;  Male:
+        <input type="radio" value="M" name="optGender" checked>
+        &nbsp;  Female:
+        <input type="radio" value="F" name="optGender">
+</td>
+</tr>
+<tr>
+<td>
+Select Your Country:
+<select name="chState" input type="text" id="chState" state="chState">
+            <option>India </option>
+            <option>Isrel </option>
+            <option>Japan </option>
+            <option>Russia </option>
+            <option>China </option>
+        </select>
+</td>
+</tr>
+<tr>
+<td>
+ Terms and condition:
+ 
+        <input type="checkbox" id="agree" name="agree" value="agree">
+        <label for="agree">Agree</label>
+        <input type="checkbox" id="disagree" name="disagree" value="disagree">
+        <label for="disagree">Disagree</label>
+ 
+</td>
+</tr>
+<th>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</th>
+</table>
+</form>
+</body>
+</html>
