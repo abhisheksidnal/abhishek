@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task 6</title>
+</head>
+<body>
+    <h1><u>Feedback Survey Form</u></h1>
+    
+    <form action="#" method="POST">   
+     <h2><ul>1. Feature Satisfaction</ul></h2>
+         Please select the features you found most satisfactory:<br>
+        <input type="checkbox" id="ui" name="feature" value="ui">
+        <label for="ui">User Interface</label><br>
+        <input type="checkbox" id="performance" name="feature" value="performance">
+        <label for="performance">Performance</label><br>
+        <input type="checkbox" id="reliability" name="feature" value="reliability">
+        <label for="reliability">Reliability</label><br>
+        <input type="checkbox" id="support" name="feature" value="support">
+        <label for="support">Customer Support</label><br>
+
+        <h2><ul>2. Overall Experience</ul></h2>
+        How would you rate your overall experience?
+        <select name="experience" id="experience">
+            <option value="1">1 - Poor</option>
+            <option value="2">2 - Fair</option>
+            <option value="3">3 - Average</option>
+            <option value="4">4 - Good</option>
+            <option value="5">5 - Excellent</option>
+        </select><br>
+
+       <br>
+        
+        Additional Features (Please specify in the comment box below):
+        <input type="text" id="additional_features" name="additional_features"><br>
+
+        <h2><ul>3. Improvement Areas</ul></h2>
+        Are there any areas you think we could improve upon?<br>
+        <textarea id="improvements" name="improvements" rows="4" cols="50"></textarea><br>
+
+        <h2><ul>4. Likelihood to Recommend</ul></h2>
+        On a scale of 1 to 10, how likely are you to recommend our product/service to others?<br>
+        <input type="number" id="recommend" name="recommend" min="1" max="10"><br>
+
+        <h2><ul>5. Demographic Information</ul></h2>
+        Age:
+        <input type="text" id="age" name="age"><br>
+
+        Gender:<br>
+        <input type="radio" id="male" name="gender" value="male">
+       Male<br>
+        <input type="radio" id="female" name="gender" value="female">
+        Female<br>
+        <input type="radio" id="other" name="gender" value="other">
+        Other<br>
+
+        Occupation:
+        <select id="occupation" name="occupation">
+            <option value="student">Student</option>
+            <option value="employee">Employee</option>
+            <option value="business_owner">Business Owner</option>
+            <option value="other">Other</option>
+        </select><br>
+
+        <h2><ul>6. Additional Comments</ul></h2>
+        Do you have any additional comments or suggestions?<br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value ="reset">
+
+    </form>
+</body>
+</html>
